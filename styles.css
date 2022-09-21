@@ -142,7 +142,6 @@
     line-height: 24px;
     letter-spacing: -0.2px;
     color: #1B1C21;
-    text-shadow: 0 0 2px #1B1C21;
 }
 
 .main-nav__link:hover {
@@ -156,9 +155,8 @@
     color: #7E7E82;
 }
 
-.main-nav__link:nth-child(1)::before {
+.main-nav__link:focus::before {
     position: absolute;
-    top: 116px;
     display: block;
     content: "";
     width: 0;
