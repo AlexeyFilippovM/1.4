@@ -45,7 +45,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 320px;
-    height: 100vh;
+    min-height: 100vh;
     box-shadow: 16px 0px 52px rgba(14, 24, 80, 0.2);
 }
 
@@ -148,12 +148,9 @@
     padding: 14px 0;
     border: 2px solid #B8FFEC;
     border-radius: 6px;
-}
-
-
-.main-nav__link--selected {
     color: #7E7E82;
 }
+
 
 .main-nav__link:focus::before {
     position: absolute;
@@ -222,6 +219,6 @@
     margin-right: 7px;
 }
 
-.button-language--selected {
+.button-language:focus {
     color: #7E7E82;
 }
